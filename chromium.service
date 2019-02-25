@@ -1,0 +1,10 @@
+ [Unit]
+ Description=Chromium Kiosk
+ After=multi-user.target
+
+ [Service]
+ Type=idle
+ ExecStart=/usr/bin/bash /home/pi/chromium.sh
+
+ [Install]
+ WantedBy=multi-user.target
