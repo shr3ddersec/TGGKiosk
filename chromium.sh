@@ -15,4 +15,4 @@ sed -i 's/"exit_type":"Crashed"/"exit_type":"Normal"/' /home/pi/.config/chromium
 ### Running Chromium with URL ###
 #################################
 
-/usr/bin/chromium-browser -kiosk *REACTED*
+/usr/bin/chromium-browser --kiosk *REACTED*
